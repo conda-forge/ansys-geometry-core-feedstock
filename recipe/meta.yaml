@@ -22,10 +22,11 @@ requirements:
     - pip
   run:
     - python >={{ python_min }},<4.0
-    - ansys-api-geometry ==0.4.27
+    - ansys-api-geometry ==0.4.33
     - ansys-tools-path >=0.3,<1
     - ansys-tools-visualization-interface >=0.2.6,<1
     - beartype >=0.11.0,<0.20
+    - geomdl >=5,<6
     - grpcio >=1.35.0,<1.68
     - grpcio-health-checking >=1.45.0,<1.68
     - numpy >=1.20.3,<3
