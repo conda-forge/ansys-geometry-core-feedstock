@@ -22,7 +22,7 @@ requirements:
     - pip
   run:
     - python >={{ python_min }},<4.0
-    - ansys-api-geometry ==0.4.74
+    - ansys-api-geometry ==0.4.83
     - ansys-tools-path >=0.3,<1
     - ansys-tools-visualization-interface >=0.2.6,<1
     - beartype >=0.11.0,<0.22
@@ -32,7 +32,7 @@ requirements:
     - matplotlib >=3,<4
     - pint >=0.18,<1
     - protobuf >=3.20.2,<6
-    - pyvista >=0.37.0,<1
+    - pyvista >=0.38.1,<1
     - requests >=2,<3
     - scipy >=1.7.3,<2
     - semver >=3,<4
