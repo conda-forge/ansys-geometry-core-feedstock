@@ -22,8 +22,8 @@ requirements:
     - pip
   run:
     - python >={{ python_min }},<4.0
-    - ansys-api-discovery ==1.0.14
-    - ansys-tools-common >=0.2,<1
+    - ansys-api-discovery ==1.0.20
+    - ansys-tools-common >=0.3,<1
     - ansys-tools-visualization-interface >=0.2.6,<1
     - beartype >=0.11.0,<0.23
     - grpcio >=1.35.0,<2
