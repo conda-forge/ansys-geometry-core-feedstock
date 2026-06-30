@@ -1,6 +1,6 @@
 {% set python_min = "3.10" %}
 {% set name = "ansys-geometry-core" %}
-{% set version = "0.15.5" %}
+{% set version = "0.16.0" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/ansys_geometry_core-{{ version }}.tar.gz
-  sha256: 23bbedbfd4ebb32cc99eaf680e270efdd607cbedf0fe739df4b4508cc6a25642
+  sha256: ad21d18f230e13432d0f17c7d0169b51464d5f6fc7b1a61946561db7ec9bab66
 
 build:
   noarch: python
