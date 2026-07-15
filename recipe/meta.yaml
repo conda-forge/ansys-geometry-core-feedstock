@@ -22,16 +22,16 @@ requirements:
     - pip
   run:
     - python >={{ python_min }},<4.0
-    - ansys-api-discovery ==1.2.4
+    - ansys-api-discovery ==1.2.5
     - ansys-tools-common >=0.3,<1
     - ansys-tools-visualization-interface >=0.2.6,<1
     - beartype >=0.11.0,<0.23
-    - grpcio >=1.71.2,<1.82.0
-    - grpcio-health-checking >=1.71.2,<1.82.0
+    - grpcio >=1.71.2
+    - grpcio-health-checking >=1.71.2
     - matplotlib >=3,<4
     - numpy >=1.20.3,<3
     - pint >=0.18,<1
-    - protobuf >=3.20.2,<7
+    - protobuf >=3.20.2
     - pyvista >=0.38.1,<1
     - requests >=2,<3
     - scipy >=1.7.3,<2
