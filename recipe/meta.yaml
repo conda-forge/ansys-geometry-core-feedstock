@@ -1,6 +1,6 @@
 {% set python_min = "3.12" %}
 {% set name = "ansys-geometry-core" %}
-{% set version = "0.17.2" %}
+{% set version = "0.18.0" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/ansys_geometry_core-{{ version }}.tar.gz
-  sha256: 234dd4cba4e9e9ed5e92b357fec641626ec7c81f17ff779fbed591b9af137a55
+  sha256: a2a90b74ec1a0f3c8387395ed9de8a6e6a7ede0de2af42e8447d424dc9e836cf
 
 build:
   noarch: python
@@ -22,7 +22,7 @@ requirements:
     - pip
   run:
     - python >={{ python_min }},<4.0
-    - ansys-api-discovery ==1.2.13
+    - ansys-api-discovery ==1.2.16
     - ansys-tools-common >=0.3,<1
     - ansys-tools-visualization-interface >=0.14.0,<1
     - beartype >=0.11.0,<0.23
